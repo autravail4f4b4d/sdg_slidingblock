@@ -1,0 +1,27 @@
+{
+  "name": "sdg-escape-unlock-2030",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "verify:levels": "vite-node scripts/verify-levels.ts",
+    "verify:uat": "vite-node scripts/verify-uat-candidates.ts",
+    "verify:pools": "vite-node scripts/verify-production-pools.ts",
+    "evaluate:candidates": "vite-node scripts/evaluate-candidates.ts",
+    "search:candidates": "vite-node scripts/search-production-candidates.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.0"
+  }
+}

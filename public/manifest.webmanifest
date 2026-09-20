@@ -1,0 +1,13 @@
+{
+  "name": "SDG Escape — Unlock 2030",
+  "short_name": "SDG Escape",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#c89460",
+  "theme_color": "#7a4b28",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
